@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+}
+.brands{
+    margin-top: 100px;
+    font-weight: inherit;
+    font-weight: 700
+}
+.trending{
+    margin-top: 50px;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.trends{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#sticky_nav{
+  position: sticky;
+  top: 0px !important;
+}
+
+/* cards animation */
+
+
+
+  /* nav right side icons animation */
+  .carts{
+    width: 300px;
+    transition: transform 0.3s;
+  }
+
+  .navbar{
+    font-weight: bold;
+
+   
+  }
+
+  .navbar:hover{
+    color: blueviolet;
+  }
+  
+  .sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
